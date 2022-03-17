@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/CardsForExam/app/src/main/res/drawable/bg_add.xml" value="0.1475" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CardsForExam/app/src/main/res/drawable/edittext_rounded_corners_border.xml" value="0.1285" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CardsForExam/app/src/main/res/drawable/ic_clear.xml" value="0.1285" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CardsForExam/app/src/main/res/layout/activity_add_card.xml" value="0.2046875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CardsForExam/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CardsForExam/app/src/main/res/layout/card_item.xml" value="0.2046875" />

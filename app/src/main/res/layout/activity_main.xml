@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2000000"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000317"
     android:orientation="vertical"
     tools:context=".activity.MainActivity">
 
@@ -32,11 +33,11 @@
                     android:textSize="22sp" />
 
                 <ImageView
-                    android:background="@drawable/bg_add"
                     android:id="@+id/ivAdd"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="280dp"
+                    android:background="@drawable/bg_add"
                     android:src="@drawable/ic_add_circle" />
 
 
@@ -47,6 +48,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:layout_height="match_parent">
 
     </androidx.recyclerview.widget.RecyclerView>

@@ -6,18 +6,13 @@ import retrofit2.http.*
 
 interface CardService {
 
-    @GET("users")
-    fun getAllUsers(): Call<ArrayList<Card>>
+    @GET("api")
+    fun getAllCards(): Call<ArrayList<Card>>
 
-    @GET("users/{id}")
-    fun getUser(@Path("id") id: Int): Call<Card>
+    @GET("api/{id}")
+    fun getCard(@Path("id") id: String): Call<Card>
 
-    @POST("users")
-    fun createUser(@Body card: Card): Call<Card>
+    @POST("api")
+    fun createCard(@Body card: Card): Call<Card>
 
-    @PUT("users/{id}")
-    fun updateUser(@Path("id") id: Int , @Body card: Card): Call<Card>
-
-    @DELETE("users/{id}")
-    fun deleteUser(@Path("id") id: Int) : Call<Card>
 }
